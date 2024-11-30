@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cercles</title>
+  <style>
+    body {margin: 1em 2em;}
+    td, input {text-align: center;}
+  </style>
+</head>
+<body>
+  <a href="https://www.loom.com/share/205f0d1af8a6437597b9e78cb13fc56e?sid=02de2a41-c7d3-4362-a134-57e5445d7f51">programa para crear cercles</a>
+  <h1>Introduzca los valores para los circulos:</h1>
+  <table width="70%">
+      <tr>
+          <th width="15%"></th>
+          <th>Posicio x</th>
+          <th>Posicio Y</th>
+          <th>Radiuss</th>
+          <th>&nbsp;</th>
+
+      </tr>
+      <tr>
+          <td><strong>Circle&nbsp;1</strong></td>
+          <td><input type="number" id="xA1" value="0" style="width:70px;"></td>
+          <td><input type="number" id="yA1" value="4" style="width:70px;"></td>
+          <td><input type="number" id="radi1" value="2" style="width:70px;"></td>
+          <td>&nbsp;</td>
+      </tr>
+      <tr>
+          <td><strong>Circle&nbsp;2</strong></td>
+          <td><input type="number" id="xA2" value="-3" style="width:70px;"></td>
+          <td><input type="number" id="yA2" value="-1" style="width:70px;"></td>
+          <td><input type="number" id="radi2" value="3" style="width:70px;"></td>
+          <td><button id="button" onclick="calcular()">Calcular</button>    
+          </td>
+      </tr>
+  </table><br><br>
+  <h1>Resultados:-</h1><br><br>
+  <li>La distancia entre el centro del círculo actual y el recibo como parámetro: <span id="distance"></span></li><br>
+  <li>Dos círculos son iguales: <span id="equals"></span></li><br>
+  <li>Dos círculos son concéntricos (tienen igual centro): <span id="concentric"></span></li><br>
+  <li>Dos círculos tienen el mismo radio: <span id="equalRadius"></span></li><br>
+  <li>Dos círculos son tangents: <span id="tangents"></span></li><br>
+  <li>Dos círculos son secants: <span id="secants"></span></li><br>
+  <li>Dos círculos no es tocan: <span id="notTouch"></span></li><br>
+
+  <!--<script src="./js/clasesPunto.js"></script>-->
+  <script src="./js/clasesCercles.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
